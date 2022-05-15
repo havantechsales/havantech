@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+
+*{font-family:'Poppins', sans-serif;
+  font-weight:normal ;
+  img { border-radius:50px;}
+} 
+h3{color:red;}
+hr{
+    width: 150px;
+    border: 1px solid red;
+    border-top:0px;
+    float: left;
+}
+
+
+
+
+body{background-color: #EFEFEF;
+}
+
+ *{
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+} 
+
+header{
+        display: flex;
+        justify-content:space-between;
+        padding: 30px 10%;
+        align-items: center;
+        background-color: white;
+        position: fixed;
+        width: 100%;
+}
+
+li, a, button{
+    font-size: 15px;
+    font-weight: 500;
+    color: navy;
+    text-decoration: none;
+}
+
+.logo{cursor: pointer;
+    
+}
+
+.navlist{list-style: none;
+         
+    
+}
+
+.navlist li{ display: inline-block;
+             padding:0px 20px;
+}
+
+.navlist li a{transition:all 0.3s ease os;   }
+
+.navlist li a:hover{color: navy; }
+
+button{ padding:9px 25px;
+        border:none;
+        border-radius: 50px;
+        transition:all 0.3s ease os; 
+        background-color: skyblue;
+        cursor: pointer;
+}
+
+button:hover{ color:skyblue}     
+
+
+
+
+
+
+
+
+.father{height:1200px;
+        width: 100%;
+    background-image: url("engineer15.webp");
+    background-size: 1000px 100% }
+    
+    
+.father1{
+          color: white;
+          padding:320px 0px 0px 40px;
+          height: 20px;
+          width:20px;
+          font-size: 70px;
+          font-weight: normal;
+           text-align: center;
+}
+          
+          
+.father2{ color:white;
+          font-weight: normal;
+          width: 200px;
+          height: 10px
+          position: absolute;
+          padding-left: 50px;
+          padding-top:350px;
+          
+           }
+           
+           
+           
+.fathertext1{ position: absolute;
+            text-align: justify;
+            padding-top: 200px;
+            color: white;
+            text-align: center;
+            padding-left: 470px;
+            font-size: 13px;
+}
+
+.fathertext2{ 
+              color:white;
+              padding-top:250px;
+              text-align: center;
+              font-size: 22px;
+             
+}
+
+.mother{
+    height:1400px;
+        width: 100%;
+    background-image: url("engineer17.webp");
+    background-size: 1000px 100% }
+    
+
+.mother1{
+    height:900px;
+        width: 100%;
+        background-color: #F8F8F8;
+}
+.mother1a{display:flex;
+         justify-content: space-between;
+         background-color: white;
+         padding: 10px 10px 10px 10px;
+         margin: 10px 20px 10px 25px;
+         border-radius: 40px;
+}
+
+
+.mother1b{display:flex;
+          margin: 30px 25px 40px 25px;
+          justify-content: space-between;
+          background-color: white;
+          padding: 10px 10px 10px 10px;
+          border-radius:40px
+}
+.mother1c{display:flex;
+          margin:20px;20px 70px 25px
+          justify-content:space-between;
+          background-color: white;
+          padding: 10px 10px 10px 10px;
+          border-radius:40px;
+}
+.mothera1image,.mothera4image,.mothera5image{border-radius: 25px;
+    
+}
+
+.mothera2{width:68%;
+          margin-left: 0px;}    
+          
+.mothera3{
+          margin-left: 30px;}      
+        
+                
+        
+              
+.mothera6{width:60%;
+          margin-left: 45px;
+          
+}      
+        
+        
+        
+.mother2{
+         padding:50px 30px 15px 30px;
+         color: white;
+         text-align:center;
+         font-size: 50px;
+         
+}
+
+.mother3{font-size: 22px;
+         color: white;
+         text-align: center;
+         padding: 30px 30px 15px 30px;
+         
+        
+}
+.mother4{font-size: 15px;
+         padding: 50px 50px 10px 90px;
+         color: white;
+         text-align:center;
+}
+
+.mother5{font-size: 22px;
+         padding: 0px 50px 10px 90px;
+         color: white;
+         text-align:center;
+         margin-top: 0px;
+        
+}
+
+.container{ display: flex;
+          
+           width: 100vw;
+           overflow-y: auto;
+           background-color:#F8F8F8;
+}
+           
+.container:hover{}
+         
+           
+.first{  padding:20px 10px 20px 20px;}
+.second{  padding:20px 10px 10px 10px;}
+
+
+.third{  padding:20px 10px 10px 10px;}
+
+.third h1{
+    font-size: 16.5px;
+    margin:0px 0px 0px 15px;
+}
+.third p{font-size: 16.5px;
+    margin:0px 0px 0px 15px;
+    
+}
+    
+    
+    
+}
+
+
+.fourth{  padding:20px 10px 10px 10px;}
+.fifth{  padding:20px 10px 10px 10px;}
+.sixth{  padding:20px 10px 10px 10px;}
+.seventh{  padding:20px 10px 10px 10px;}
+.eighth{  padding:20px 10px 10px 10px;}
+.nineth{  padding:20px 10px 10px 10px;}
+
+
