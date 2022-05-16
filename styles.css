@@ -62,7 +62,7 @@ button{ padding:9px 25px;
         border:none;
         border-radius: 50px;
         transition:all 0.3s ease os; 
-        background-color: skyblue;
+        background-color: gold;
         cursor: pointer;
 }
 
@@ -124,7 +124,7 @@ button:hover{ color:skyblue}
 .mother{
     height:1400px;
         width: 100%;
-    background-image: url("engineer17.webp");
+    background-color: gold;
     background-size: 1000px 100% }
     
 
@@ -138,7 +138,8 @@ button:hover{ color:skyblue}
          background-color: white;
          padding: 10px 10px 10px 10px;
          margin: 10px 20px 10px 25px;
-         border-radius: 40px;
+         transition-delay: -1s;
+         
 }
 
 
@@ -147,17 +148,21 @@ button:hover{ color:skyblue}
           justify-content: space-between;
           background-color: white;
           padding: 10px 10px 10px 10px;
-          border-radius:40px
+            transition-delay: -1s;
+
 }
 .mother1c{display:flex;
           margin:20px;20px 70px 25px
           justify-content:space-between;
           background-color: white;
           padding: 10px 10px 10px 10px;
-          border-radius:40px;
+          transition-property:fonts,background-color, font-size;
+            transition-duration: 3s;
+
 }
-.mothera1image,.mothera4image,.mothera5image{border-radius: 25px;
-    
+.mothera1image,.mothera4image,.mothera5image{border-radius: 20px;
+      transition-delay: -1s;
+
 }
 
 .mothera2{width:68%;
@@ -177,10 +182,11 @@ button:hover{ color:skyblue}
         
         
 .mother2{
-         padding:50px 30px 15px 30px;
+         padding:50px 0px 15px 0px;
          color: white;
          text-align:center;
          font-size: 50px;
+         margin:0 auto;
          
 }
 
@@ -188,6 +194,7 @@ button:hover{ color:skyblue}
          color: white;
          text-align: center;
          padding: 30px 30px 15px 30px;
+         font-weight: bold;
          
         
 }
@@ -205,41 +212,94 @@ button:hover{ color:skyblue}
         
 }
 
-.container{ display: flex;
-          
+.container{ 
+           height: 900px;
+           width: 100vw;
+           background-color:#F8F8F8;
+           background-image: url("back2.jpg");
+           background-size: 100%;
+}
+
+.container h2{margin-left:20px;
+             color:navy;
+             
+}
+
+
+.container2{ display: flex;
+           height: 700px;
            width: 100vw;
            overflow-y: auto;
-           background-color:#F8F8F8;
+           padding: 0px 0px 0px;0px
+} 
+
+.container2  h2{ color:skyblue;
+             margin: 50px;
 }
+.container2  h4{ color:Navy;
+             margin: 50px;
+             
+}
+
+
+.one, .two, .three, .four, .five, .six  {
+           background-color:white;
+           height: 600px;
+           z-index:1;
+           border-radius: 0px;
+           margin: 10px;
+ 
+          }
+
+
+ 
+ .newsbutton{background-color:blue
+              opacity}     
            
-.container:hover{}
-         
-           
-.first{  padding:20px 10px 20px 20px;}
-.second{  padding:20px 10px 10px 10px;}
 
-
-.third{  padding:20px 10px 10px 10px;}
-
-.third h1{
-    font-size: 16.5px;
-    margin:0px 0px 0px 15px;
-}
-.third p{font-size: 16.5px;
-    margin:0px 0px 0px 15px;
-    
+.lastcon{background-color:navy;
+    color:white;
+    text-align: center;
+    width:250px;
+    height:30px;
+font-size: 80%;
+padding-top:5px;
+margin: 0 auto;
 }
     
+.buttom{
+    height:1400px;
+        width: 100%;
+    background-image: url("engineer15.webp");
+    background-size: 1400px 100%;}
     
     
+.buttom2{
+    height:700px;
+        width: 100%;
+    background-color:black ;
+    color: white;
+    font-size: 20px;
+    text-align: center;
 }
 
+.buttom2 h3{margin: 0;
+  position: absolute;
+  top: 215%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+   color: white;
+}
+.btext h1{
+color: white;
+position: absolute;
+left: 50px;
+padding-top: 30px;
+}
 
-.fourth{  padding:20px 10px 10px 10px;}
-.fifth{  padding:20px 10px 10px 10px;}
-.sixth{  padding:20px 10px 10px 10px;}
-.seventh{  padding:20px 10px 10px 10px;}
-.eighth{  padding:20px 10px 10px 10px;}
-.nineth{  padding:20px 10px 10px 10px;}
-
-
+.btext h4{
+color: white;
+position: absolute;
+left: 50px;
+padding-top: 150px;
+}
