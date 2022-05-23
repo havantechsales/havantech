@@ -5,7 +5,10 @@
   font-weight:normal ;
   img { border-radius:50px;}
 } 
-h3{color:red;}
+h3{color:#E8630A;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: bold;
+}
 hr{
     width: 150px;
     border: 1px solid red;
@@ -37,7 +40,7 @@ header{
 li, a, button{
     font-size: 15px;
     font-weight: 500;
-    color: black;
+    color: #0E185F;
     text-decoration: none;
 }
 
@@ -62,7 +65,7 @@ button{ padding:9px 25px;
         border:none;
         border-radius: 50px;
         transition:all 0.3s ease os; 
-        background-color: gold;
+        background-color: #FDF6EC;
         cursor: pointer;
 }
 
@@ -74,13 +77,22 @@ button:hover{ color:skyblue}
 
 
 
+@media screen and (max-width:500px) {
+    height:1000px;
+    width:100vw
+}
 
 .father{height:70vh;
         width: 100vw;
-    background-image: url("back25.jpg");
-    background-size: 50vh 100% }
-    
-    
+    background-image: url("engineer6.jpg");
+    background-size: 50vh 100%;
+    transition-property: background-image;
+}
+
+.father:hover{ background-image:url("back25.jpg");  }
+
+
+
 .father1{
           color: white;
           padding:320px 0px 0px 40px;
@@ -124,21 +136,26 @@ button:hover{ color:skyblue}
 .mother{
     height:1400px;
         width: 100%;
-    background-color: gold;
-    background-size: 1000px 100% }
+        background-image: url("back51.jpg");
+     background-size: 1000px 100% 
+    transition-property: background-color;
+}
     
+
+.mother:hover{  background-color:#365966;
+ }
 
 .mother1{
     height:900px;
         width: 100%;
-        background-color: #F8F8F8;
+        background-color: #EFEFEF;
         align-items: center;
 }
 .mother1a{display:flex;
          justify-content: space-between;
          background-color: white;
          padding: 10px 0px 10px 120px;
-         margin: 10px 20px 10px 25px;
+         margin: 40px 20px 10px 20px;
            
 
          
@@ -146,7 +163,7 @@ button:hover{ color:skyblue}
 
 
 .mother1b{display:flex;
-          margin: 30px 25px 40px 25px;
+          margin: 0px 20px 10px 20px;
           justify-content: space-between;
           background-color: white;
           padding: 10px 120px 10px 10px;
@@ -154,16 +171,15 @@ button:hover{ color:skyblue}
 
 
 }
-.mother1c{display:flex;
-          margin:20px;20px 70px 25px
-          justify-content:space-between;
-          background-color: white;
-          padding: 10px 10px 10px 120px;
-          transition-property:fonts,background-color, font-size;
-            align-items:center;
-            
 
-}
+
+
+
+                 
+
+
+
+
 .mothera1image,.mothera4image,.mothera5image{border-radius: 20px;
       transition-delay: -1s;
 
@@ -225,10 +241,16 @@ button:hover{ color:skyblue}
 }
 
 .container h2{margin-left:20px;
-             color:navy;
-             
+             color:#E8630A;
+        
 }
-
+.container h4{ display:absolute;
+              font-weight:bold;
+               color:black;
+               text-align:center;
+               font-family: 'Fjalla One', sans-serif;
+              
+}
 
 .container2{ display: flex;
            height: 700px;
@@ -238,10 +260,10 @@ button:hover{ color:skyblue}
            
 } 
 
-.container2  h2{ color:skyblue;
+.container2  h2{ color:#black;
              margin: 50px;
 }
-.container2  h4{ color:black;
+.container2  h4{ color:#black;
              margin: 50px;
              
 }
@@ -258,11 +280,11 @@ button:hover{ color:skyblue}
 
 
  
- .newsbutton{background-color:blue
+ .newsbutton{background-color:#E8630A
               opacity}     
            
 
-.lastcon{background-color:skyblue;
+.lastcon{background-color:#0E185F;
     color:white;
     text-align: center;
     width:250px;
@@ -273,20 +295,12 @@ margin: 0 auto;
 }
     
 .buttom{
-    height:1400px;
+    height:800px;
         width: 100%;
-    background-color: black;
+    background-color: #2B2626;
     background-size: 1400px 100%;}
     
     
-.buttom2{
-    height:700px;
-        width: 100%;
-    background-color: #EFEFEF;
-    color: white;
-    font-size: 20px;
-    text-align: center;
-}
 
 .buttom2 h3{margin: 0;
   position: absolute;
